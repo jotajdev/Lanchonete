@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt=Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../Js/all.js"></script> 
+    <link rel="icon" href= "../Img/logIcon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/cadastro.css">
+    <title>NextSpace</title>
+    <style>body{
+        background-image: url(../img/fundo.png);
+    }</style>
+</head>
+<body>
+    <div id="flex">
+        <div id="cad">
+            <form action="http://localhost/NextSpace/Controller/CadastroClient.php"method="POST" class="cadastro">
+                <a href="Login.html" id="back"><i class="fas fa-arrow-left"></i></a>
+                <h1>Crie sua conta já!</h1>
+                <input type="text" name="logi" placeholder=" Nome de Usuário"autofocus maxlength="40" minlength="5"/>
+                <input type="email" name="email" placeholder=" E-mail" maxlength="100" minlength="15">
+                <input type="text" name="celular" placeholder=" Celular" maxlength="14" minlength="9">
+                <input type="password" name="senha" placeholder=" Senha" maxlength="20" minlength="5">
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>    
+</body>
+</html>
