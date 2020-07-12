@@ -5,7 +5,7 @@
         var $servBanco    = 'localhost'; // Variável para o servidor do banco
         var $usuarioBanco = 'root'; // Variável para o usuário do servidor
         var $passBanco    = ''; // Variável para a senha do servidor
-        var $nameBanco    = 'nspace'; // Variável para o nome do banco
+        var $nameBanco    = 'jdelivery'; // Variável para o nome do banco
         var $query        = null; // Variável para fazer a solicitação
         var $mysqli       = null; // Variável para as funções mysqli do php
         
