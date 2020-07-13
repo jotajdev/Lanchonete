@@ -15,11 +15,11 @@ include "Conexao.php";
 
             // Se as variáveis do banco que contém os valores de usuário e senha, respectivamente, forem iguais aos digitados, o usuário terá acesso a área restrita;
             if($bancoUser == $user && $bancoPass == $pass){
-                header('Location: ../View/dashboard.html');
+                header('Location: ../View/table.html');
             }
             // Senão ele será redirecionado para uma página informando que o Login e/ou a Senha estão incorretos!
             else{  
-                header('Location: dashboard.html');
+                header('Location: index.html');
                 echo "Login ou senha incorretos";
             }
         }        
